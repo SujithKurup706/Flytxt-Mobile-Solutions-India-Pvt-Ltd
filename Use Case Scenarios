@@ -1,0 +1,45 @@
+### Critical Server Disk Space Issue
+
+Problem: A production server reached 95% disk utilization, risking system-wide failure.
+
+Solution:
+
+- Utilized 'du' and 'find' commands to identify large and unnecessary files
+- Implemented a log rotation policy using 'logrotate' to manage log file sizes
+- Created a cron job to automatically clean up temporary files older than 7 days
+- Expanded disk space by 50% and implemented Nagios alerts for proactive monitoring
+
+Result: Reduced disk usage to 60%, preventing potential downtime and improving system stability.
+
+### Complex Campaign Failure for Major Telecom Client
+
+Problem: A high-priority campaign for Airtel failed to execute, potentially impacting millions of customers.
+
+Solution:
+
+- Analyzed CDR files using custom grep and awk scripts to identify data inconsistencies
+- Collaborated with the client to correct input data format issues
+- Optimized campaign parameters in the Neon platform to handle the corrected data
+- Executed a series of test runs to ensure campaign stability
+- Implemented additional data validation checks to prevent similar issues
+
+Result: Successfully re-ran the campaign within 4 hours, reaching 98% of the intended audience and maintaining client relationship.
+
+### Database Performance Degradation
+
+Problem: Slow query response times causing delays in real-time campaign execution.
+
+Solution:
+
+- Utilized SQL Server Profiler to identify problematic queries
+- Collaborated with the database team to optimize query structures and implement indexing strategies
+- Implemented query caching for frequently accessed data
+- Adjusted database maintenance schedules to minimize impact on peak campaign hours
+
+Result: Improved overall query performance by 40%, reducing campaign execution time from 30 minutes to 18 minutes on average.
+
+## Continuous Improvement Initiatives
+
+- Spearheaded the implementation of a knowledge base system, reducing recurring tickets by 30%
+- Initiated weekly team knowledge sharing sessions, improving overall team efficiency by 20%
+- Proposed and implemented a customer feedback loop, leading to the development of three new platform features
