@@ -1,4 +1,4 @@
-### Critical Server Disk Space Issue
+# Critical Server Disk Space Issue
 
 Problem: A production server reached 95% disk utilization, risking system-wide failure.
 
